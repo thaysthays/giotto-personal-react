@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-import Icon from '../../components/icon/Icon'
+import Image from '../../components/image/Image'
 import Text from '../../components/text/Text'
+import Icons from '../../components/icons/Icons'
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Icon />
+        <Image />
         <Text />
+        <Icons />
       </div>
     );
   }
