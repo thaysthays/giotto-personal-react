@@ -1,3 +1,15 @@
+.links ul {
+  padding: 20px;
+  display: flex;
+}
+
 .icon {
   font-family: 'Gotham-Bold', sans-serif;
+  display: inline;
+  text-transform: uppercase;
+  margin-right: 2px;
+
+  &:after {
+    content: "•"
+  }
 }
