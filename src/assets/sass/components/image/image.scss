@@ -1,0 +1,44 @@
+.header-heading_centered {
+    margin: auto;
+    position: relative;
+    width: 170px;
+    text-align: center;
+}
+
+.header-icon {
+    margin-top: 28px;
+    position: relative;
+
+    &-img {
+        width: 150px;
+        border-radius: 100%;
+        filter: contrast(103%) hue-rotate(-7deg) saturate(101%);
+
+        &:hover {
+            filter: contrast(88%);
+            transition: filter .2s ease-in;
+        }
+    }
+
+    &_heading {
+        background-color: black;
+        border-radius: 3px;
+        color: #FFF;
+        display: inline-block;
+        width: 144px;
+        text-align: center;
+        position: absolute;
+        font-size: 16px;
+        bottom: 14px;
+        padding: 8px;
+        margin: auto;
+        right: 0;
+        left: 0;
+    }
+
+    &_centered {
+        width: 150px;
+        position: relative;
+        margin: auto;
+    }
+}
